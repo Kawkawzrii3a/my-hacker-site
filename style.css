@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.terminal {
+    padding: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #0f0;
+    text-shadow: 0 0 10px #00ff00;
+}
+
+.command {
+    color: #00ff00;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.green {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
